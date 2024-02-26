@@ -1,3 +1,4 @@
 langchain[all]
 streamlit
 faiss-cpu
+langchain_google_genai
