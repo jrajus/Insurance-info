@@ -2,3 +2,4 @@ langchain[all]
 streamlit
 faiss-cpu
 langchain-google-genai
+pypdf
