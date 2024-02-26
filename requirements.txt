@@ -4,4 +4,4 @@ faiss-cpu
 langchain-google-genai
 pypdf
 chromadb
-pysqlite3-binary
+pysqlite3
