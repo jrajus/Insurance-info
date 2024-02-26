@@ -4,3 +4,4 @@ faiss-cpu
 langchain-google-genai
 pypdf
 chromadb
+sqlite3>= 3.35.0
