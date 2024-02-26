@@ -1,4 +1,4 @@
-chromadb==0.4.22
+chromadb==0.3.29
 langchain[all]
 streamlit
 faiss-cpu
