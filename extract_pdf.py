@@ -18,6 +18,10 @@ import json
 import pandas as pd
 
 st.sidebar.text='Know about your policy'
+user_api_key = st.sidebar.text_input(
+    label="#### Your GoogleAI API key 👇",
+    placeholder="Paste your openAI API key, sk-",
+    type="password")
 uploaded_file = st.sidebar.file_uploader("Upload your policy here", type="pdf")
 
 @st.experimental_memo
@@ -35,7 +39,7 @@ def process_pdf_and_get_info(pdf_name,question_prompt):
     loader = PyPDFLoader(pdf_name)
     data = loader.load_and_split()
 
-    os.environ['GOOGLE_API_KEY'] = "AIzaSyDqWiUZ676y19mw2BlKBVV7_82nAAKkX9E"
+    os.environ['GOOGLE_API_KEY'] = user_api_key
     genai.configure(api_key = os.environ['GOOGLE_API_KEY'])
     
     # Split text into chunks
