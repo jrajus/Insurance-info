@@ -1,7 +1,7 @@
+chromadb==0.4.22
 langchain[all]
 streamlit
 faiss-cpu
 langchain-google-genai
 pypdf
-chromadb
-pysqlite>=3.35.0
+
