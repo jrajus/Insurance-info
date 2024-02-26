@@ -3,3 +3,4 @@ streamlit
 faiss-cpu
 langchain-google-genai
 pypdf
+chromadb
