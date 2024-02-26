@@ -1,3 +1,4 @@
 Langchain
-Streamline
+Streamlit
 langchain_community
+faiss-cpu
